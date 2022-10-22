@@ -1,0 +1,95 @@
+@media (max-width: 1200px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 3em;   
+        height:60px;
+
+    }
+   
+    .englobando{
+        display:block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2em;
+        margin-left: 2em;
+        
+    }
+    main{
+        display:block;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 500px;
+
+    }
+    aside{
+        display:block;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 600px;
+    
+    }
+    aside h2{
+        text-align: center;
+
+    }
+    .cetralizando-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .primeiro-card{
+       display: flex;
+       flex-direction: column;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-color: #2c1158;
+       margin-bottom: 40px;
+       margin-left: 0px;
+       
+    }
+   
+}
+
+@media (max-width: 700px){
+    body{
+        height: 40px;
+
+    }
+    header h2{
+        font-size: 15px;
+
+    }
+    header a{
+        font-size: 12px;
+
+    }
+    
+
+}
+@media (max-width: 400px){
+    body{
+        height: 20px;
+
+    }
+    header h2{
+        font-size: 10px;
+
+    }
+    header a{
+        font-size: 10px;
+        
+    }
+    
+    
+}
