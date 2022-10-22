@@ -4,7 +4,7 @@ body{
     min-height: 100vh;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(220.55deg, #8d28bb 0%, #190040 100%);
+    background-color: #8d28bb;
     background-image: url(../images/Purple-abstract-background-light.jpg);
     background-position: center;
     background-repeat: no-repeat;
